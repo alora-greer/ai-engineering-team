@@ -9,8 +9,8 @@ Version-controlled global configuration (`CLAUDE.md`) and specialist subagents (
 
 ## Installation (Symlink Setup)
 ```bash
-git clone https://github.com/alora-greer/ai-engineering-team.git ~/ai-engineering-team
+git clone https://github.com/alora-greer/ai-engineering-team.git ~/workspace/ai-engineering-team
 mkdir -p ~/.claude
-ln -sf ~/ai-engineering-team/CLAUDE.md ~/.claude/CLAUDE.md
-ln -sfn ~/ai-engineering-team/agents ~/.claude/agents
+ln -sf ~/workspace/ai-engineering-team/CLAUDE.md ~/.claude/CLAUDE.md
+ln -sfn ~/workspace/ai-engineering-team/agents ~/.claude/agents
 ```
